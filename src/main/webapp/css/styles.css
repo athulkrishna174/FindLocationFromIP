@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+:root{
+	--primary: #333737;
+	--secondary: #8b8b8c;
+}
+
+#ipInput{
+	display: block;
+	margin: 20% auto;
+	width: 30%;
+	height: 50px;
+	text-align: center;
+	border-radius: 0px;
+	border: 1px solid black;
+	font-size: 15pt;
+	outline: none;
+}
+
+#submit{
+	display: block;
+	margin: -18% auto;
+	width: 30.4%;
+	height: 50px;
+	text-align: center;
+	background: var(--primary);
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 10pt;
+	text-transform: uppercase;
+}
+
+#submit:hover {
+	background: #434747;
+}
+
+.raw{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 25px;
+}
+
+.column{
+	text-align: center;
+	width: 15%;
+}
+
+.property{
+	font-size: 12pt;
+	min-width: 15%;
+}
+
+.propvalue{
+	width: 100%;
+	height: 30px;
+	padding: 10px;
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+#countryCode{
+	background: var(--primary);
+}
+
+#countryName{
+	background: var(--secondary);
+}
+
+#regionName{
+	background: var(--primary);
+}
+
+#cityName{
+	background: var(--secondary);
+}
+
+#latitude{
+	background: var(--primary);
+}
+
+#longitude{
+	background: var(--secondary);
+}
+
+#zipCode{
+	background: var(--primary);
+}
+
+#timeZone{
+	background: var(--secondary);
+}
+
+#areaCode{
+	background: var(--primary);
+}
+
+#weatherStationCode{
+	background: var(--secondary);
+}
+
+#weatherStationName{
+	background: var(--primary);
+}
+
+#elevation{
+	background: var(--secondary);
+}
+
+#iddCode{
+	background: var(--primary);
+}
+
+#mcc{
+	background: var(--secondary);
+}
+
+#mnc{
+	background: var(--primary);
+}
+
+#mobileBrand{
+	background: var(--secondary);
+}
+
+#isp{
+	background: var(--primary);
+}
+
+#domainName{
+	background: var(--secondary);
+}
+
+#netSpeed{
+	background: var(--primary);
+}
+
+#usageType{
+	background: var(--secondary);
+}
+
